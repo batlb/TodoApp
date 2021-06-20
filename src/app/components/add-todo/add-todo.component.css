@@ -1,0 +1,35 @@
+.todo-add{
+	position: relative;
+	line-height: 4em;
+	vertical-align: middle;
+}
+.todo-add>input{
+	width: 98%;
+	height: 3em;
+	border: 1px solid aquamarine;
+	outline: aquamarine;
+}
+.todo-add>input:focus{
+	border: 1px solid aquamarine;
+}
+.todo-add>.todo-add-btn{
+	display: inline-block;
+	position: absolute;
+	top: 0; right: 0;
+	width: 4em;
+	height: 4em;
+	line-height: 4em;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 1em;
+	margin-left: -3em;
+	border-radius: 100%;
+	background: aquamarine;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+.todo-add>.todo-add-btn:focus, .todo-add>.todo-add-btn:hover{
+	box-shadow: 2px 2px 5px 4px #7FDDC4;
+}

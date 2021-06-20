@@ -1,0 +1,63 @@
+li{
+    width: 100%;
+    line-height: 3em;
+    padding-left: 1em;
+    box-sizing: border-box;
+    background: #666;
+    color: #DDD;
+}
+li:hover{
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+}
+:host:nth-child(2) li{
+    /* border: 2px solid dimgray; */
+    display: block;
+	background: #777;
+}
+
+i{
+	/* background-color: red; */
+}
+a{
+	display: block;
+	background-color: inherit;
+	color: inherit;
+}
+
+
+.removeTodo,.editTodo, .completeTodo{
+    float: right;
+    width: 2em;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    color: #FF7E7E;
+    /* border:1px solid red; */
+}
+.removeTodo:hover, .editTodo:hover, .completeTodo:hover{
+    cursor: pointer;
+}
+
+/* stretch icon to containing div */
+.removeTodo i, .editTodo i, .completeTodo i{
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    /* border:3px solid green; */
+}
+.removeTodo i::before, .editTodo i::before, .completeTodo i::before{
+    vertical-align: middle;
+    line-height: 3em;
+    opacity: .7;
+}
+
+.removeTodo:hover i::before, .editTodo:hover i::before, .completeTodo:hover i::before{
+    opacity: 1;
+}
+
+.completed{
+    text-decoration: line-through #F99;
+}

@@ -1,0 +1,10 @@
+div{
+	position: relative;
+	min-height: 5em;
+	background-color: white;
+}
+
+button{
+	position: absolute;
+	bottom:.5em; right: .5em;
+}
